@@ -1,1 +1,1 @@
-# landing-page-project
+Landing Page Project: HTML & CSS Foundations path of theodinproject.com
