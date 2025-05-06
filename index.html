@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+    <title>Go: Ancient Board Game</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="images/website-icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -13,12 +14,22 @@
 <!-- header and section-one start -->
     <div class = "section-one">
         <div class="container">
-            <div class="header">
+            <div class="header-one">
                 <ul>
-                    <li>Go: An Ancient Board Game</li>
-                    <li>About</li>
-                    <li>Reviews</li>
-                    <li>Learn</li>
+                    <li class="logo">
+                        <img src="images/website-icon.png" alt="custom circular icon with white background and black letters" width="50px" height="50px">
+                    </li>
+            </div>        
+            <div class="header-two">
+                    <li class = "links">
+                        <a href="#about" style="text-decoration: none; position: relative; color: white;">About</a>
+                    </li>
+                    <li class = "links">
+                        <a href="#review" style="text-decoration: none; position: relative; color: white;">Review</a>
+                    </li>
+                    <li class = "links">
+                        <a href="#join" style="text-decoration: none; position: relative; color: white;">Join</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -31,14 +42,33 @@
                 </div>
             
                 <div class="go-body">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi inventore ut expedita quidem velit necessitatibus dolores sapiente, fugit sint qui, nostrum, labore omnis. Laborum, voluptate eos cumque sapiente veritatis quas?
+                    Learn to play the ancient board game enjoyed by millions of people worldwide!
+                    <br>
+                    <br>
+                    “Go” comes from the Japanese 囲碁 (Igo), and is also known as 圍棋 (wéiqí) in China and 바둑 (baduk) in Korea.
+                    <br>
+                    <br>
+                    Go is a fantastic game for your brain! It improves your concentration and memory while also making you an excellent problem solver.
+                    <br>
+                    <br>
+                    It's also excellent for controlling your emotions and maintaining mental flexibility and a keen intellect.
+                    <br>
+                    <br>
+                    Capture stones, control territories, read moves! It's all in the game of Go!
+                    <br>
+                    <br>
                 </div>
 
-                <a href="https://online-go.com/learn-to-play-go" target="_blank" rel="noopener noreferrer"><button class="free-play">Try it!</button></a>
+                <button class="join-now" >
+                    <a href="https://online-go.com/learn-to-play-go" target="_blank" rel="noopener noreferrer" style="text-decoration: none; position: relative; color: white;">
+                        Try it now!
+                    </a>
+                </button>
+                <!-- <button class="join-now">Try it now!</button> -->
             </div>
 
             <div class="right-side">
-                <img src="https://placehold.co/600x400">
+                <img src="images/goban.jpg" alt="an image showing a go board and stones" height="300" width="500">
             </div>
         </div>
    </div>
@@ -52,23 +82,18 @@
             
             <div class="about-images">
                 <div class="abt-img">
-                    <img src="https://placehold.co/200x200">
-                    <div class="description">1 lorem ipsum shits</div>
+                    <img src="/images/goban-table.jpg" alt="a scenery showing a go board setup on a table" height="300" width="300">
+                    <div class="description">Play an abstract board game with a friend.</div>
                 </div>
 
                 <div class="abt-img">
-                    <img src="https://placehold.co/200x200">
-                    <div class="description">2 lorem ipsum shits</div>
+                    <img src="/images/go-players.jpg" alt="a picture of two old people playing Go" height="300" width="300">
+                    <div class="description">Keep your mind sharp, whatever your age may be.</div>
                 </div>
 
                 <div class="abt-img">
-                    <img src="https://placehold.co/200x200">
-                    <div class="description">3 lorem ipsum shits</div>
-                </div>
-
-                <div class="abt-img">
-                    <img src="https://placehold.co/200x200">
-                    <div class="description">4 lorem ipsum shits</div>
+                    <img src="/images/goishi.jpg" alt="Black and white colored stones used for Go, also known as ishi" height="300" width="300">
+                    <div class="description">Quick to learn, lifetime to master.</div>
                 </div>
             </div>
 
@@ -78,13 +103,13 @@
 
 
 <!-- section-three start -->
-    <div class="section-three">
+    <div class="section-three" id="review">
         <div class="container">
             <p class="quote">
                 Go is a lifestyle game, but it's not just a game. It's a framework to live your life by, sometimes more similar to religion than a board game.
             </p>
             <div class="quote-author">
-                - Hon'inbō Shūsaku, GOAT of Go
+               <p>- Hon'inbō Shūsaku, GOAT of Go</p>
             </div>
         </div>
     </div>
@@ -92,14 +117,16 @@
 
 
 <!-- CTA start -->
-    <div class="ct-action">
+    <div class="ct-action" id="join">
         <div class="container">
             <div class="box">
                 <div class="left-side">
                     <div class="tagline">What are you waiting for? It's time to <i>Go</i>!</div>
                     <p class="tag-desc">Sign up today by clicking on the button to the right!</p>    
                 </div>
-                <a href="https://online-go.com/register" target="_blank" rel="noopener noreferrer"><button class="free-play">Sign Up</button></a>
+                <a href="https://online-go.com/register" target="_blank" rel="noopener noreferrer">
+                <button class="free-play">Sign Up</button>
+                </a>
             </div>
         </div>
     </div>
